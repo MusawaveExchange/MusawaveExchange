@@ -1,0 +1,110 @@
+.light-mode {
+    --primaryColor: #fff;
+    --textColor:#080808;
+    --textColorAlt:#333;
+    --dark:#ccc;
+}
+.lead-text {
+    font-size: 18px;
+    margin-top: -50px;
+}
+.l-heading {
+    font-size: 24px;
+}
+.m-heading {
+    font-size: 45px;
+    font-weight: 600;
+    /* color: #fff; */
+}
+.showcase {
+    position: relative;
+    margin-top: -8rem;
+}
+.showcase-text{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.showcase-img{
+    background: url('/img/img-final-removebg-preview.png') no-repeat center left/cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    top: 30rem;
+    right: 0;
+    bottom: 0;
+    margin-right: 3rem;
+    text-align: center;
+    
+}
+.vendorimg{
+    width: 300px;
+    margin-left: 5.5rem ;
+    flex-basis: 100%;
+}
+.certimg{
+    width: 300px;
+}
+
+#about{
+    margin-top: 1rem;
+    
+}
+
+
+nav.fa-solid.fa-times, .fa-solid.fa-bars {
+    display: block;
+    font-size: 25px;
+    
+    
+} 
+#hbgers {
+    display: block !important;
+}
+.nav-bar .nav-menu > ul {
+    display: block;
+    background: var(--secondaryColor);
+    position: fixed;
+    top: 0;
+    right: -50vh;   
+    width: 50vw;
+    height: 100vh;
+    padding-top: 50px;
+    transition: all 0.5s;
+}
+.nav-bar .nav-menu > ul > li{
+    display: block;
+    margin: 40px;
+}
+.nav-bar .nav-menu > ul .fa-solid {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    cursor: pointer;
+}
+.about-img {
+    flex-basis: 100%;
+}
+
+p {
+    font-size: 14px;
+}
+.work-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-bottom: 40px;
+}
+#contact > .container.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.contact-me {
+    flex-basis: 100%;
+}
+.contact-form {
+    flex-basis: 100%;
+}
